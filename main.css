@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.list-reset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.services-item{
+    margin-left: 130px;
+}
+body{
+    padding: 0 15px;
+    font-family: 'font',sans-serif;
+}
+.Photos{
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    width: 850px;
+    height: 250px;
+    background-color: rgb(39, 39, 83);
+    border: 5px solid rgb(173, 173, 22);
+}
+.services-item-descr{
+    text-align: center;
+    color: white;
+}
+.services-item-descr:hover{
+    background-color: black;
+}
+.STSPhoto{
+    margin-left: 100px;
+    width: 600px;
+    height: 200px;
+    border-bottom: 2px solid rgb(173, 173, 22);
+    align-items: center;
+}
+.section-descr{
+    text-align: center;
+    color: white;
+}
+.services-item-icon{
+    margin-top: 15px;
+}
+.Start{
+    margin-top: 50px;
+    width: 850px;
+    height: 300px;
+    background-color: rgb(39, 39, 83);
+    align-content: center;
+    border: 5px solid rgb(173, 173, 22);
+}
+.video{
+    margin-top: 50px;
+    width: 850px;
+    background-color: rgb(39, 39, 83);
+    padding-left:20px;
+    padding-bottom: 50px;
+    border: 5px solid rgb(173, 173, 22);
+}
+li{
+    list-style-type: none;
+}
+td{
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+}
+th{
+    border-bottom: 1px solid black;
+    background-color: rgb(90, 90, 90);
+}
+table{
+    margin: 50px auto;
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+.main{
+    height: 100%;
+}
+.AboutMyself img:not(:last-child){
+    margin-right: 50px;
+}
+caption{
+    margin-bottom: 20px;
+    /* color: rgb(255, 0, 0); */
+    font-size: 20px;
+}
+.card{
+    margin-left: 20px;
+}
+.LanguageProficiency{
+    margin-top: 50px;
+}
+#contacts{
+    text-align: center;
+}
+.HCJ{
+    font-size: 20px;
+}

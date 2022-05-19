@@ -1,0 +1,38 @@
+footer{
+    margin-top: 50px;
+    width: 100%;    
+}
+.footer-container{
+    height: 180px;
+    background: #0A0E1A;
+    justify-content: center;
+}
+.footer-link{
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.footer-right{
+    align-items: center;
+}
+.footer-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-item{
+    flex-direction: column; 
+    margin-top: 30px;
+}
+.footer-item:not(:last-child){
+    margin-right: 70px;
+}
+.container{
+    width: auto;
+    margin-top: 50px;
+}
+.MyMy{
+    margin-top: 10px;
+    margin-left: -50px;
+}
